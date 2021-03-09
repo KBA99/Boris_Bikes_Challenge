@@ -1,4 +1,4 @@
-require 'Boris_Bikes.rb'
+require 'DockingStation.rb'
 
 describe DockingStation do
 
