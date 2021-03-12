@@ -7,6 +7,8 @@ describe DockingStation do
   # end
   
   it 'responds to release_bike' do
+    bike = subject
+    
     expect(subject).to respond_to(:release_bike)
   end
 
