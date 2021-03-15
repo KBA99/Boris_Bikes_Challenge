@@ -6,5 +6,9 @@ describe Bike do
   end
   # it {  is_expected.to respond_to :working?}
 
-  
+  describe '#reported_broke' do 
+    it 'can report broken bikes' do
+      expect(Bike.new).to respond_to(:report_broken)
+    end
+  end
 end
