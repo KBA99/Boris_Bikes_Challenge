@@ -5,4 +5,6 @@ describe Bike do
     is_expected.to respond_to(:working?)
   end
   # it {  is_expected.to respond_to :working?}
+
+  
 end
